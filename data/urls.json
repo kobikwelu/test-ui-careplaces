@@ -4,7 +4,14 @@
       "url": "https://staging-btw-ui-18.herokuapp.com",
       "url_api": "https://staging-btw-api-18.herokuapp.com",
       "tags": [
-        "staging"
+        "dev4"
+      ]
+    },
+    {
+      "url": "https://staging-btw-ui-18.herokuapp.com",
+      "url_api": "https://staging-btw-api-18.herokuapp.com",
+      "tags": [
+        "UAT"
       ]
     }
   ]

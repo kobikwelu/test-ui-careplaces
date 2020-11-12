@@ -1,29 +1,13 @@
 {
   "users":[
     {
-      "email": "test@test.com",
-      "password": "Aa5233713!",
-      "tags":[
-        "end to end happy path"
-      ]
-    },
-    {
       "firstname": "automate_first",
       "lastname": "automate_last",
       "email": "automatetest4321@gmail.com",
       "password": "Ajdeotyf4289*",
       "mail_url": "https://www.gmail.com",
       "tags":[
-        "user reset password"
-      ]
-    },
-    {
-      "firstname": "automate_first",
-      "lastname": "automate_last",
-      "email": "automatetest1111@gmail.com",
-      "password": "Ajdeotyf4289*",
-      "tags":[
-        "new user signup"
+        "user login password"
       ]
     },
     {
