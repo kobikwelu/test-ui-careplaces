@@ -24,7 +24,17 @@ describe('Login end to end tests', ()=>{
 		signedOnHeader = createSignedOnHeader(core.driver());
 	});
 
-	it('****************************************** Login successfully',  async ()=>{
+	it('SMOKE ****************************************** Login successfully',  async ()=>{
+		await signOnPage.openSignOnPage('staging');
+		await signOnPage.inputSignonInfo(user.email, user.password);
+		await latestTaskModal.validateWelcomeModalIsDisplayed();
+		await latestTaskModal.dismissModal();
+		await dashboardPage.validateDashboard();
+		await signedOnHeader.signOut();
+		await signOnPage.validateSignOnPage();
+	})
+
+	it('REGRESSION ****************************************** Login successfully with errors',  async ()=>{
 		await signOnPage.openSignOnPage('staging');
 		await signOnPage.inputSignonInfo(user.email, user.password);
 		await latestTaskModal.validateWelcomeModalIsDisplayed();
